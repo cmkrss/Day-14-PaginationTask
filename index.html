@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagination</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 id="title">Pagination</h1>
+  <p id="description">Short explanation about pagination</p>
+
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <!-- Table content goes here -->
+    </table>
+  </div>
+
+  <div id="buttons" class="d-flex justify-content-center">
+    <button id="first-page" class="btn btn-primary" onclick="changeColor('blue')">First</button>
+    <button id="prev-page" class="btn btn-primary" onclick="changeColor('green')">Previous</button>
+    <button id="next-page" class="btn btn-primary" onclick="changeColor('yellow')">Next</button>
+    <button id="last-page" class="btn btn-primary" onclick="changeColor('red')">Last</button>
+  </div>
+  
+  <div id="pagination" class="d-flex justify-content-center">
+    <!-- Pagination buttons will be dynamically added here -->
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
+
+
+
